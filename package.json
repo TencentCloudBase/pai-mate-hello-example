@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/TencentCloudBase/pai-mate-hello-example#readme",
   "dependencies": {
+    "shelljs": "^0.8.3",
     "yaml": "^1.6.0"
   }
 }
