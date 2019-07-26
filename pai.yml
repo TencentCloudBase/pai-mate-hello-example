@@ -1,4 +1,4 @@
-deployScript:
+deployScripts:
   start:
     - npm install
     - npm run start
@@ -6,5 +6,6 @@ deployScript:
     - npm run stop
   restart:
     - npm install
+    - sleep 3
     - sh my_script.sh
     - npm run restart
