@@ -7,5 +7,5 @@ deployScripts:
   restart:
     - npm install
     - sleep 3
-    - sh my_script.sh
+    - sh my_build_script.sh
     - npm run restart
